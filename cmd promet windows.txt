@@ -1,0 +1,63 @@
+
+URL have all commands of windows
+https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/find
+
+
+press tap to continue your commend line auto
+pree ctrl+c to stop any thing do continuesly
+
+any cmd with /? give a help for you
+
+color  01           to change color of cmd
+title anytitle
+OSK                 to open keyboard
+tasklist            to give all run task in windows
+mspaint             to open paint 
+ipconfig            to give all detailes network 
+systeminfo          to give all info about system
+whoami              to give pc username
+   | clip           to get copy of the result in cmd 
+-- (systeminfo | clip)
+
+
+
+cd name             change dir         
+cd ..               to reverse step dir
+cd \                to reverse to C disk 
+          
+
+cls                 to clear screen 
+
+mkdir name          to make a new dirction file // mkdir name othername to make more than file in same dirction //mkdir "example with space" 
+move name newname   to change name of file or to put file in other file if the newname is exist in dir
+--move name ..\     to reverse file one step out exact file
+ --move name ..
+rename name newname to change name
+dir                 to get list of all file where dirctory
+
+tree /F            to dirctory files looks like tree
+tree /A            to dirctory files looks like tree
+
+explorer            to open file of pc
+-explorer path      to open dirctory file 
+
+rmdir filename      to delete dir of file
+del   filenem.type  to delete file with type
+
+echo  " exampl"                 to print in cmd screen
+-echo "example2" > exm.txt      to make txt file and print in it
+--echo "hello cmd" >> exm.txt   to apend in file write new txt in new line
+echo > ex.html ex2.py ex3.docx  to creat new file with give type //if the file name is exaict creat new file and delete old
+--echo "any txt" >> ex.html ex2.py ex3.docx to apend into file
+
+
+rename ex.type ex.newtype       to change type of file or change name
+
+
+type filename or (*)                 to display the txt in cmd
+--type filename > newfilename        copy all txt inside file to other
+---type filename >> filenameexact      to apend file txt in other txt
+--more file name or(*)               to display the txt in cmd
+
+findstr "txt to find" filename        to find txt in file
+-findstr /n "txt to find" file name   to find string with count it
